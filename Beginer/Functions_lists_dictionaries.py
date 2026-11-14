@@ -1,4 +1,4 @@
-# FILE 3: Functions, lists, tuples, dictionaries, and sets
+# Functions, lists, tuples, dictionaries, and sets
 
 
 def greet(name):
@@ -12,7 +12,7 @@ def add(a, b):
 print("Sum:", add(10, 20))
 
 
-fruits = ["apple", "banana", "mango"]             # List: ordered and changeable
+fruits = ["apple", "banana", "mango"]             # List
 fruits.append("orange")
 print("\nFruits:", fruits)
 print("First fruit:", fruits[0])
@@ -22,7 +22,7 @@ for fruit in fruits:
 
 
 coordinates = (10, 20)
-print("\nCoordinates:", coordinates)         # Tuple: ordered but cannot be changed
+print("\nCoordinates:", coordinates)         #Tuple
 
 # Dictionary: key-value pairs
 student = {
@@ -34,6 +34,6 @@ print("\nStudent name:", student["name"])
 student["age"] = 21
 print("Updated student:", student)
 
-# Set: stores unique values
-numbers = {1, 2, 2, 3, 4, 4}
+
+numbers = {1, 2, 2, 3, 4, 4}                     # Set
 print("\nUnique numbers:", numbers)

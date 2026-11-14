@@ -1,23 +1,22 @@
-# FILE 1: Variables, input, data types, and operators
+#Variables, input, data types, and operators
 
-#basics for taking input // printing statement 
-name = input("What is your name? ")
+name = input("What is your name? ")               #input
 age = int(input("How old are you? "))
 
 print("\nHello,", name)
 print("Next year, you will be", age + 1)
 
-# Variables and basic data types
+
 course = "Python"
 hours = 4.5
 is_beginner = True
 
-print("\nCourse:", course)  # /n is used for next line 
+print("\nCourse:", course)  # /n - escape sequence
 print("Study hours:", hours)
 print("Beginner:", is_beginner)
 print("Type of age:", type(age))  # type tell the data type 
 
-# Arithmetic operators
+
 a = 17
 b = 5
 
