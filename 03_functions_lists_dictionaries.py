@@ -1,8 +1,8 @@
 # FILE 3: Functions, lists, tuples, dictionaries, and sets
 
-# Function
+
 def greet(name):
-    print(f"Hello, {name}! Keep learning Python.")
+    print(f"Hello, {name}! Keep learning Python.")      # Function
 
 greet("Alex")
 
@@ -11,8 +11,8 @@ def add(a, b):
 
 print("Sum:", add(10, 20))
 
-# List: ordered and changeable
-fruits = ["apple", "banana", "mango"]
+
+fruits = ["apple", "banana", "mango"]             # List: ordered and changeable
 fruits.append("orange")
 print("\nFruits:", fruits)
 print("First fruit:", fruits[0])
@@ -20,9 +20,9 @@ print("First fruit:", fruits[0])
 for fruit in fruits:
     print(fruit)
 
-# Tuple: ordered but cannot be changed
+
 coordinates = (10, 20)
-print("\nCoordinates:", coordinates)
+print("\nCoordinates:", coordinates)         # Tuple: ordered but cannot be changed
 
 # Dictionary: key-value pairs
 student = {
